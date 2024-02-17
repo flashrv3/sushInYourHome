@@ -1,5 +1,21 @@
+body {
+	background-color: #fd8d1a;
+	color: white;
+}
+
 .user_information {
-    display: flex;
-    flex-direction: column;
-    
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+input {
+	width: 25%;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+textarea {
+	width: 45%;
+	height: 150px;
 }
