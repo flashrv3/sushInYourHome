@@ -3,6 +3,20 @@ body {
 	color: white;
 }
 
+.restaurant__name {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar__list {
+   display: flex; 
+   justify-content: space-evenly;
+   
+}
+
 .user_information {
 	display: flex;
 	flex-direction: column;
