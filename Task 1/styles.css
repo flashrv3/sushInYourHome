@@ -41,12 +41,19 @@ a {
 
 .menus-avalable {
 	list-style: none;
+	width: 27%;
+	
+}
+.menu-avalable__op1, .menu-avalable__op2, .menu-avalable__op3 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background-color: white;
 }
 
-.menu-avalable__op1{
-	background-image: url("images/5513efd99a0b894ef5b6953dda391448-754x394.jpg");
-	background-repeat: no-repeat;
-	width: 30%;
+.menu-avalable__op1__img, .menu-avalable__op2__img, .menu-avalable__op3__img {
+	width: 100%;
+	height: auto;
 }
 
 .user-information {
