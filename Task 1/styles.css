@@ -4,20 +4,15 @@ body {
 }
 
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0.5,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24;
-   vertical-align:bottom
+	font-variation-settings: "FILL" 0.5, "wght" 400, "GRAD" 0, "opsz" 24;
+	vertical-align: bottom;
 }
 
-
-.restaurant__name {
+.restaurant-name {
 	text-align: center;
 }
 
-.navbar__list {
+.navbar-list {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -25,7 +20,7 @@ body {
 	margin: 0 auto;
 	list-style: none;
 	border-top: 0.5px solid #292929;
-	border-bottom: 0.5px solid #292929
+	border-bottom: 0.5px solid #292929;
 }
 
 a {
@@ -33,7 +28,28 @@ a {
 	color: #010101;
 }
 
-.user_information {
+.main-concept {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.main-concept__img {
+	border-radius: 45px;
+	width: 100%;
+	height: auto;
+}
+
+.menus-avalable {
+	list-style: none;
+}
+
+.menu-avalable__op1{
+	background-image: url("images/5513efd99a0b894ef5b6953dda391448-754x394.jpg");
+	background-repeat: no-repeat;
+	width: 30%;
+}
+
+.user-information {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;

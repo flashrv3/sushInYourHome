@@ -12,32 +12,32 @@
 
 <body>
 	<header>
-		<h1 class="restaurant__name">SushinYourHome - Restaurant</h1>
-		<nav class="main_navbar">
-			<ul class="navbar__list">
-				<li class="navbar_list--item"><a href="">
+		<h1 class="restaurant-name">SushinYourHome - Restaurant</h1>
+		<nav class="main-navbar">
+			<ul class="navbar-list">
+				<li class="navbar-list__item"><a href="">
 						<span class="material-symbols-outlined">
 							person
 						</span> Log In / Sign In
 					</a></li>
-				<li class="navbar_list--item"><a href="#concept_title"><span class="material-symbols-outlined">
+				<li class="navbar-list__item"><a href="#concept"><span class="material-symbols-outlined">
 							history_edu
 						</span>Our Concept</a></li>
-				<li class="navbar_list--item"><a href="#menus_title"> <span class="material-symbols-outlined">
+				<li class="navbar-list__item"><a href="#menus"> <span class="material-symbols-outlined">
 							restaurant_menu
 						</span> Menus</a></li>
-				<li class="navbar_list--item"><a href="#schedule_title"><span class="material-symbols-outlined">
+				<li class="navbar-list__item"><a href="#schedule"><span class="material-symbols-outlined">
 							schedule
 						</span> Our Schedule</a></li>
-				<li class="navbar_list--item"><a href="#talk_with_us"> <span class="material-symbols-outlined">
+				<li class="navbar-list__item"><a href="#talk_with_us"> <span class="material-symbols-outlined">
 							contact_page
 						</span> Talk With us</a></li>
 			</ul>
 		</nav>
 	</header>
-	<section id="concept">
+	<section id="concept" class="main-concept">
 		<h2 id="concept_title">Our Concept</h2>
-		<article>
+		<article class="">
 			<p>
 				We are a small family Restaurant, who learn all the secrets and the
 				techniques on how to preppare the best sushi, we are not in Japan but
@@ -49,21 +49,21 @@
 			</p>
 		</article>
 		<figure>
-			<img src="./images/set-sushi-boat-with-assortment-sushi-sashimi-highlighting-artistry-sushi-presentation-japanese-food_721791-2410.avif"
-				alt="a sushi Boat" />
+			<img class="main-concept__img"
+				src="./images/set-sushi-boat-with-assortment-sushi-sashimi-highlighting-artistry-sushi-presentation-japanese-food_721791-2410.avif"
+				alt="sushi-boat" />
 			<figcaption>Our sushi Boat</figcaption>
 		</figure>
 	</section>
-	<section>
-		<h2 id="menus_title">Our Menus</h2>
-		<ul>
-			<li>
-				<a href=""></a>Sensei I
-				<h2>
+	<section id="menus">
+		<h2>Our Menus</h2>
+		<ul class="menus-avalable">
+			<li class="menu-avalable__op1"> Sensei I
+				<h3>
 					Do you know what they say about this menu? “There are so many stars
 					together!” - Our bestseller is ready to spread magic
-				</h2>
-				<h3>What comes with the menu</h3>
+				</h3>
+				<h4>What comes with the menu</h4>
 				<p>
 					2 GUNKAN SALMON PHILADELPHIA 2 GUNKAN BRAZED SALMON 2 GUNKAN POP 4
 					SASHIMI SALMON 3 NIGIRI SALMON 3 NIGIRI BRAZED SALMON 4 HOSSOMAKI
@@ -103,8 +103,8 @@
 			</li>
 		</ul>
 	</section>
-	<section>
-		<h2 id="schedule_title">Our Schedule</h2>
+	<section id="schedule">
+		<h2>Our Schedule</h2>
 		<table>
 			<tr>
 				<th>Monday</th>
@@ -126,8 +126,8 @@
 			</tr>
 		</table>
 	</section>
-	<section>
-		<h2 id="talk_with_us">Talk with us</h2>
+	<section id="talk_with_us">
+		<h2>Talk with us</h2>
 		<form>
 			<fieldset>
 				<label for="subject">Choose a subject</label>
@@ -139,7 +139,7 @@
 					<option value="recrutement">Recrutement</option>
 				</select>
 			</fieldset>
-			<fieldset class="user_information">
+			<fieldset class="user-information">
 				<legend>Fill the form</legend>
 				<label for="customer_name">First Name:</label>
 				<input type="text" id="customer_name" name="name" placeholder="Enter your First name" required />
