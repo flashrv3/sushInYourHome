@@ -1,6 +1,6 @@
 body {
 	background-color: #fd8d1a;
-	color: 010101;
+	color: #FEFEFE;
 }
 
 .material-symbols-outlined {
@@ -45,9 +45,7 @@ a {
 	
 }
 .menu-avalable__op1, .menu-avalable__op2, .menu-avalable__op3 {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
+	color: #fd8d1a;
 	background-color: white;
 }
 
