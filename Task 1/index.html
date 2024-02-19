@@ -5,6 +5,8 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="styles.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
 	<title>Sushi Restaurant</title>
 </head>
 
@@ -13,16 +15,28 @@
 		<h1 class="restaurant__name">SushinYourHome - Restaurant</h1>
 		<nav class="main_navbar">
 			<ul class="navbar__list">
-				<li><a href="">Log In / Sign In</a></li>
-				<li><a href="">Our Concept</a></li>
-				<li><a href="">Menus</a></li>
-				<li><a href="">Our Schedule</a></li>
-				<li><a href="">Talk With us</a></li>
+				<li class="navbar_list--item"><a href="">
+						<span class="material-symbols-outlined">
+							person
+						</span> Log In / Sign In
+					</a></li>
+				<li class="navbar_list--item"><a href="#concept_title"><span class="material-symbols-outlined">
+							history_edu
+						</span>Our Concept</a></li>
+				<li class="navbar_list--item"><a href="#menus_title"> <span class="material-symbols-outlined">
+							restaurant_menu
+						</span> Menus</a></li>
+				<li class="navbar_list--item"><a href="#schedule_title"><span class="material-symbols-outlined">
+							schedule
+						</span> Our Schedule</a></li>
+				<li class="navbar_list--item"><a href="#talk_with_us"> <span class="material-symbols-outlined">
+							contact_page
+						</span> Talk With us</a></li>
 			</ul>
 		</nav>
 	</header>
 	<section id="concept">
-		<h2>Our Concept</h2>
+		<h2 id="concept_title">Our Concept</h2>
 		<article>
 			<p>
 				We are a small family Restaurant, who learn all the secrets and the
@@ -41,7 +55,7 @@
 		</figure>
 	</section>
 	<section>
-		<h3>Our Menus</h3>
+		<h2 id="menus_title">Our Menus</h2>
 		<ul>
 			<li>
 				<a href=""></a>Sensei I
@@ -90,7 +104,7 @@
 		</ul>
 	</section>
 	<section>
-		<h2>Our Schedule</h2>
+		<h2 id="schedule_title">Our Schedule</h2>
 		<table>
 			<tr>
 				<th>Monday</th>
@@ -113,7 +127,7 @@
 		</table>
 	</section>
 	<section>
-		<h2>Talk with us</h2>
+		<h2 id="talk_with_us">Talk with us</h2>
 		<form>
 			<fieldset>
 				<label for="subject">Choose a subject</label>

@@ -1,20 +1,36 @@
 body {
 	background-color: #fd8d1a;
-	color: white;
+	color: 010101;
 }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0.5,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+   vertical-align:bottom
+}
+
 
 .restaurant__name {
-    text-align: center;
-}
-
-ul {
-    list-style: none;
+	text-align: center;
 }
 
 .navbar__list {
-   display: flex; 
-   justify-content: space-evenly;
-   
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 60%;
+	margin: 0 auto;
+	list-style: none;
+	border-top: 0.5px solid #292929;
+	border-bottom: 0.5px solid #292929
+}
+
+a {
+	text-decoration: none;
+	color: #010101;
 }
 
 .user_information {
@@ -26,7 +42,8 @@ ul {
 input {
 	width: 25%;
 	padding: 5px;
-	border-radius: 3px;
+	border-radius: 7px;
+	border-style: none;
 }
 
 textarea {
