@@ -99,24 +99,21 @@ a {
 	padding: 13px;
 	margin-top: 25px;
 	border-radius: 8px;
-	font-size: 14px; 
+	font-size: 14px;
 	font-weight: 800;
-	cursor: pointer; 
-	
+	cursor: pointer;
 }
 
 .menus-avalable__button:hover {
-	background: linear-gradient(90deg,#5e4127,#f76c16);
+	background: linear-gradient(90deg, #5e4127, #f76c16);
 }
-
 
 /* Schedule styles*/
 
 .schedule-container {
 	display: flex;
-	flex-direction: column;	
+	flex-direction: column;
 	align-items: center;
-	
 }
 
 .schedule-dayOfWeeks {
@@ -124,10 +121,10 @@ a {
 	border: 4px solid white;
 }
 
-.schedule-time {
+/* .schedule-time {
 	
 	
-}
+} */
 /* Form styles */
 
 .user-information {
