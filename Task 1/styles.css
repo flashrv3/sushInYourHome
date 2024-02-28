@@ -109,16 +109,22 @@ a {
 }
 
 /* Schedule styles*/
-
 .schedule-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
+.schedule {
+	width: 100%;
+	text-align: center;
+	border: ;
+}
 
-.schedule-dayOfWeeks {
-	padding: 25px;
-	border: 4px solid white;
+.schedule,
+.schedule-header,
+.schedule-data {
+	border: 1px solid white;
+	border-collapse: collapse;
 }
 
 /* .schedule-time {
