@@ -117,7 +117,6 @@ a {
 .schedule {
 	width: 100%;
 	text-align: center;
-	border: ;
 }
 
 .schedule,
@@ -127,10 +126,7 @@ a {
 	border-collapse: collapse;
 }
 
-/* .schedule-time {
-	
-	
-} */
+
 /* Form styles */
 
 .user-information {
