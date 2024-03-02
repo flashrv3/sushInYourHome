@@ -6,6 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="styles.css" />
 	<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+		integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 	<title>Sushi Restaurant</title>
 </head>
@@ -51,7 +54,7 @@
 		</article>
 		<figure>
 			<img class="main-concept__img"
-				src="./images/set-sushi-boat-with-assortment-sushi-sashimi-highlighting-artistry-sushi-presentation-japanese-food_721791-2410.avif"
+				src="/Task 1/Assets/set-sushi-boat-with-assortment-sushi-sashimi-highlighting-artistry-sushi-presentation-japanese-food_721791-2410.avif"
 				alt="sushi-boat" />
 			<figcaption>Our sushi Boat</figcaption>
 		</figure>
@@ -61,8 +64,7 @@
 		<ul class="menus-avalable">
 			<li class="menu-avalable__op1">
 				<h3 class="menu-available__title">Sensei I</h3>
-				<img class="menu-avalable__op1__img" src="images/5513efd99a0b894ef5b6953dda391448-754x394.jpg"
-					alt="gunkan-image">
+				<img class="menu-avalable__op1__img" src="/Task 1/Assets/hot-roll-sushi-empanado-1-840x480.jpeg" />
 				<h4 class="menu-available__title">
 					Do you know what they say about this menu? “There are so many stars
 					together!” - Our bestseller is ready to spread magic
@@ -85,7 +87,7 @@
 			</li>
 			<li class="menu-avalable__op2">
 				<h3 class="menu-available__title">Sensei II</h3>
-				<img class="menu-avalable__op2__img" src="images/poke.jpg" alt="poke-image">
+				<img class="menu-avalable__op2__img" src="Assets/poke.jpg" alt="poke-image">
 				<h4 class="menu-available__title">Our shyest bowl that will win you over at first sight!</h3>
 					<h4 class="menu-available__title">What comes with the menu</h4>
 					<p class="menu-available__composition">
@@ -102,7 +104,7 @@
 			</li>
 			<li class="menu-avalable__op3">
 				<h3 class="menu-available__title">Harakiri Menu</h3>
-				<img class="menu-avalable__op3__img" src="images/hot-roll-sushi-empanado-1-840x480.jpeg"
+				<img class="menu-avalable__op3__img" src="/Task 1/Assets/5513efd99a0b894ef5b6953dda391448-754x394.jpg"
 					alt="hotrolls-image">
 				<h4 class="menu-available__title">
 					If this menu were a movie, there would be a little red dot in the
@@ -172,29 +174,36 @@
 	</section>
 	<section id="talk_with_us">
 		<h2>Talk with us</h2>
-		<form action="inserir um ficheiro" method="GET">
+		<form action="insert a file" method="GET">
 			<fieldset>
 				<label for="subject">Choose a subject</label>
-				<select name="user_subject" id="subject">
+				<select name="user_subject" id="subject" class="form-subject">
 					<option value="">Please choose a subject</option>
-					<option value="delevery">Delevery</option>
-					<option value="takeaway ">Takeaway</option>
+					<option value="delevery">Delivery </option>
+					<option value="takeaway">Takeaway</option>
 					<option value="payment">Payment</option>
 					<option value="recrutement">Recrutement</option>
 				</select>
 			</fieldset>
-			<fieldset class="user-information">
+			<fieldset class="form-information">
 				<legend>Fill the form</legend>
 				<label for="customer_name">First Name:</label>
-				<input type="text" id="customer_name" name="name" placeholder="Enter your First name" required />
+				<input type="text" id="customer_name" name="name"
+					class="form-information__input--name form-information__input" placeholder="Enter your First name"
+					required />
 				<label for="customer_lastname">Last Name:</label>
-				<input type="text" id="customer_lastname" name="lastname" placeholder="Enter your Last name" />
+				<input type="text" id="customer_lastname" name="lastname"
+					class="form-information__input--name form-information__input" placeholder="Enter your Last name" />
 				<label for="customer_name">Your email:</label>
-				<input type="email" id="customer_email" name="user_email" placeholder="Enter your email" />
+				<input type="email" id="customer_email" name="user_email"
+					class="form-information__input form-information__input--email" placeholder="Enter youre email" />
 				<label for="customer_number">Your number:</label>
-				<input type="text" id="customer_number" name="cellphonenumber" placeholder="Enter your number" />
+				<input type="text" id="customer_number" name="cellphonenumber"
+					class="form-information__input form-information__input--cellphone"
+					placeholder=" Enter your number" />
 				<label for="customer_printscreen">Add Files:</label>
-				<input type="file" id="customer_printscreen" name="printscreen" accept="image/png, image/jpeg" />
+				<input type="file" id="customer_printscreen" class="form-information__file" name="printscreen"
+					accept="image/png, image/jpeg" />
 				<label for="customer_descriptions">Write any usefull information</label>
 				<textarea id="customer_descriptions" name="descriptions" placeholder="Tell us more..."></textarea>
 				<label for="send_botton"></label>

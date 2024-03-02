@@ -126,22 +126,60 @@ a {
 	border-collapse: collapse;
 }
 
-
 /* Form styles */
+.form-subject {
+	border: none;
+	appearance: none;
+	padding: 10px;
+	background-color: rgb(240, 225, 225);
+	border-radius: 10px;
+	width: 100%;
+	color: rgb(10, 10, 10);
+}
 
-.user-information {
+.form-information {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 }
 
-input {
+.form-information__input {
 	width: 25%;
-	padding: 5px;
+	padding: 15px 15px 15px 30px;
 	border-radius: 7px;
-	border-style: none;
+	border: none;
+	outline: none;
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	background-size: 13px;
 }
 
+.form-information__input--name {
+	background-image: url("Assets/user-regular.svg");
+}
+
+.form-information__input--email {
+	background-image: url("Assets/envelope-regular.svg");
+}
+
+.form-information__input--cellphone {
+	background-image: url("Assets/mobile-retro-solid.svg");
+}
+
+.form-input:focus {
+	outline: #010101;
+}
+
+.form-information__file {
+	border: none;
+	width: 35%;
+	padding:35px
+}
+
+/* .form-information__file:hover {
+	background-color: #f7fafa;
+	border-color: #d5d9d9;
+} */
 textarea {
 	width: 45%;
 	height: 150px;
